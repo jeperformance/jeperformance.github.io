@@ -90,3 +90,31 @@ background:#000;
 color:#888;
 }
 
+
+#projects{
+background:#181818;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.project{
+overflow:hidden;
+border-radius:14px;
+}
+
+.project img{
+width:100%;
+display:block;
+transition:.5s;
+cursor:pointer;
+}
+
+.project img:hover{
+transform:scale(1.08);
+}
+
