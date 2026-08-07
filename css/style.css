@@ -383,6 +383,7 @@ header {
 .hero-slideshow {
   position: absolute;
   inset: 0;
+  overflow: hidden;
   z-index: -2;
 }
 
