@@ -422,3 +422,137 @@ header::before {
     transform: scale(1.08);
   }
 }
+/* ==========================
+   CONTACT
+========================== */
+
+#contact {
+  padding: 90px 10%;
+
+  background: #141414;
+}
+
+#contact h2 {
+  text-align: center;
+
+  font-size: 3rem;
+
+  margin-bottom: 20px;
+}
+
+.contact-intro {
+  text-align: center;
+
+  color: #cfcfcf;
+
+  max-width: 700px;
+
+  margin: 0 auto 60px;
+
+  line-height: 1.8;
+}
+
+.contact-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
+  gap: 25px;
+}
+
+.contact-card {
+  background: #1d1d1d;
+
+  border-radius: 18px;
+
+  padding: 30px;
+
+  text-decoration: none;
+
+  color: white;
+
+  transition: 0.35s;
+
+  border: 1px solid transparent;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+
+  border-color: #ff5b2e;
+
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+}
+
+.contact-card h3 {
+  color: #ff5b2e;
+
+  margin-bottom: 12px;
+}
+
+.contact-card p {
+  color: #d2d2d2;
+}
+/* ==========================
+   SERVICE AREA
+========================== */
+
+.service-area {
+  margin-top: 70px;
+
+  text-align: center;
+}
+
+.service-area h3 {
+  color: #ff5b2e;
+
+  font-size: 2rem;
+
+  margin-bottom: 20px;
+}
+
+.service-area p {
+  color: #cfcfcf;
+
+  max-width: 850px;
+
+  margin: auto;
+
+  line-height: 1.8;
+}
+
+.areas {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  gap: 15px;
+
+  margin: 35px 0;
+}
+
+.areas span {
+  background: #1d1d1d;
+
+  border: 1px solid #333;
+
+  padding: 12px 22px;
+
+  border-radius: 30px;
+
+  transition: 0.3s;
+}
+
+.areas span:hover {
+  background: #ff5b2e;
+
+  border-color: #ff5b2e;
+}
+
+.appointment {
+  margin-top: 25px;
+
+  font-size: 1.05rem;
+}
