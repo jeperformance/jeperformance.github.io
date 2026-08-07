@@ -16,5 +16,5 @@ function showNextSlide() {
 
 // Wait 2 seconds before starting
 setTimeout(() => {
-  setInterval(showNextSlide, 6000);
+  setInterval(showNextSlide, 1000);
 }, 2000);
